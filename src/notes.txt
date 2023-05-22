@@ -1,0 +1,5 @@
+In react router version 6.4 and above has new settings thaey have a hooks CreateBrowserRouter
+and RouterProvider for this reason it has a new feature auto error page if you give a wrong url.
+But if you want to customize the error page you can create a error page and call a new hooks useRouterError it it has few properties you can check thorough console.error() status,Message etc. if you want to set it your default error page you can call with new properties called errorElement.
+
+Now we have create a contact component then we link to index.jsx but it create a new seperate component it's not a child of root part. So we have to integrate to root part that's why I create a children (children is property of router dom) and put it to the under of root element. But there is a problem arive that you can't see the details of contact page, for overcome this situation react have a soluation it's called outlet you can call the outlet method from react router dom now you can see the contact details.
