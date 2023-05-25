@@ -1,27 +1,16 @@
-import { Link, Outlet } from "react-router-dom";
 import "./App.css";
+import { Outlet } from "react-router-dom";
+import Navbar from "./pages/Navbar";
+import Footer from "./pages/Footer";
+
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to={"/home"}>Home</Link>
-          </li>
-          <li>
-            <Link to={"/about"}>About</Link>
-          </li>
-          <li>
-            <Link to={"/service"}>Service</Link>
-          </li>
-          <li>
-            <Link to={"/contacts"}>Contact</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <div id="detail">
         <Outlet />
       </div>
+      <Footer />
     </>
   );
 }
