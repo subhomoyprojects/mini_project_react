@@ -92,3 +92,6 @@ footer {
 .justify-space {
   justify-content: space-between;
 }
+.logo {
+  max-height: 60px;
+}

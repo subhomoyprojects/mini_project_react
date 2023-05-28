@@ -1,7 +1,8 @@
 const DummyData = {
   img1: "https://picsum.photos/id/237/600/400",
   img2: "https://picsum.photos/id/238/600/400",
-  logo: "../assets/images/logo.png",
+  // logo: require("../assets/images/logo.png"),
+  // logo: "../assets/images/logo.png",
   serviceData: [
     {
       id: "service1",

@@ -1,14 +1,14 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Container from "@mui/material/Container";
-import { DummyData } from "../assets/DummyData";
+import logo from "../assets/images/logo.png";
 
 function Navbar(props) {
   return (
     <nav>
       <Container maxWidth="lg" className="d-flex align-center justify-space">
         <Link to={"/home"}>
-          <img src={DummyData.logo} alt="" />
+          <img src={logo} alt="" className="logo" />
         </Link>
         <ul>
           <li>
