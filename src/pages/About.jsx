@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import Common from "./Common";
-import { DummyData } from "../assets/DummyData";
+import DummyData from "../assets/DummyData";
 
 function About(props) {
   return (
