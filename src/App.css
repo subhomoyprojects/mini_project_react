@@ -1,0 +1,35 @@
+.form-control input {
+  font-size: 16px;
+  color: #fff;
+}
+.form-control label {
+  font-size: 16px;
+  color: #fff;
+}
+.form-control legend {
+  font-size: 16px;
+}
+.main-holder {
+  min-height: 100vh;
+}
+.card-control p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.card-control p.view-full {
+  display: block;
+  -webkit-box-orient: inherit;
+  -webkit-line-clamp: inherit;
+  overflow: visible;
+}
+.card-control {
+  height: 100%;
+}
+.card-content-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 250px);
+}
