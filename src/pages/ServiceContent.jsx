@@ -26,7 +26,7 @@ function ServiceContent(props) {
                 setViewMoreAndLess((current) => !current);
               }}
             >
-              Learn More
+              {viewMoreAndLess ? "Learn Less" : "Learn More"}
             </Button>
           </CardActions>
         </div>
