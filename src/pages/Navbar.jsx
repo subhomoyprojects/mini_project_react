@@ -7,12 +7,12 @@ function Navbar(props) {
   return (
     <nav>
       <Container maxWidth="lg" className="d-flex align-center justify-space">
-        <Link to={"/home"}>
+        <Link to={"/"}>
           <img src={logo} alt="" className="logo" />
         </Link>
         <ul>
           <li>
-            <NavLink to={"/home"}>Home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
             <NavLink to={"/about"}>About</NavLink>
